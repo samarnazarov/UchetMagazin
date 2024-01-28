@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UchetMagazin.MainPage"
+             Title="Учет магазина">
+
+    <StackLayout>
+        
+            
+        <StackLayout>
+            <Button BackgroundColor="#878686" Margin="10,10,10,1" HeightRequest="60" Text="Расходы" Clicked="ExpensesPage" FontSize="20" TextColor="white"/>
+            <Button BackgroundColor="#878686" Margin="10,1,10,1" HeightRequest="60" Text="Продажа" FontSize="20" TextColor="white"/>
+            <Button BackgroundColor="#878686" Margin="10,1,10,1" HeightRequest="60" Text="Отчеты" FontSize="20" TextColor="white"/>
+            <Button BackgroundColor="#878686" Margin="10,1,10,1" HeightRequest="60" Text="Валюты" FontSize="20" TextColor="white"/>
+            
+        </StackLayout>
+    </StackLayout>
+   
+
+</ContentPage>

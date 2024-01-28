@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UchetMagazin.Expences">
+    
+        <StackLayout>
+            <Label Margin="10,1,10,1" Text="Дата"/>
+            <DatePicker x:Name="Data" Margin="10,1,10,1" />
+            <Label Margin="10,1,10,1" Text="Категория расхода"/>
+            <!-- <Picker Margin="10,1,10,1"/> -->
+            <Entry x:Name="Category" Margin="10,1,10,1"/>
+            <Label Margin="10,1,10,1" Text="Сумма"/>
+            <Entry x:Name="Sum" Margin="10,1,10,1"  MaxLength="50"/>
+            
+            <Button  Margin="10,350,10,1" Clicked="CreateFile" BackgroundColor="#878686" HeightRequest="60" Text="Ввести" FontSize="20" TextColor="white"/>
+           
+    </StackLayout>
+    
+</ContentPage>
