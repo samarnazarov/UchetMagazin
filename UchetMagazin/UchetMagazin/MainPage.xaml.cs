@@ -10,6 +10,7 @@ namespace UchetMagazin
 {
     public partial class MainPage : ContentPage
     {
+        // приложение по учету продаж
         public MainPage()
         {
             InitializeComponent();
